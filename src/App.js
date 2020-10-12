@@ -10,8 +10,11 @@ import { Parallax, Background } from 'react-parallax';
 import Container from 'react-bootstrap/esm/Container';
 import Skills from "./pages/skills/skills.component.jsx";
 import Zoom from "react-reveal/Zoom"
+import FooterPanel from './components/my-footer/footer.component.jsx'
 import  Experience  from "./pages/experience/my-experience.component.jsx";
 import Projects from './pages/projects/my-projects.component.jsx';
+import Contact from './pages/contactme/my-contactme.component.jsx'
+
 const App = () =>  {
   return (<div> 
     <MyNavBar></MyNavBar>
@@ -54,7 +57,17 @@ const App = () =>  {
         </Slide>
       </Container>
       </div>
+      <div>
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <Contact />
+        </Fade>
+      </Container>
+      </div>
 
+      <hr />
+      <FooterPanel />
 
 
     </div>

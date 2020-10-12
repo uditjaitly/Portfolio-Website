@@ -1,0 +1,17 @@
+.avatar{
+    margin-left:auto;
+    margin-right:auto;
+    width: 18em
+}
+
+.title{
+    text-align:center;
+}
+.contact-grid{
+    background-color:white;
+}
+.list-group-item{
+    border:0 !important;
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+}
