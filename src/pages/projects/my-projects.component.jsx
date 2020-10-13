@@ -39,7 +39,7 @@ import './my-projects.style.css'
 const Projects = () => {
     return (
         <div id="project">
-         <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+         <h1 className="title text-center">PROJECTS</h1>
          <Jumbotron className="jumbo-style">
         <CardDeck>
 

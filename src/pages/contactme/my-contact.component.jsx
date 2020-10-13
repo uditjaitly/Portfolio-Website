@@ -11,7 +11,7 @@ const Contact = () => {
                 <Container className="contact-grid">
                     <Row>
                     <Col md="6">
-                        <h2 className="title">Udit Jaitly</h2>
+                        <h2 className="title-contact">Udit Jaitly</h2>
                         <Row>
                         <img className="avatar justify-content-end" src="https://iili.io/2QcgaI.png"
                         alt="avatar" style={{height: '250px'}}/>
@@ -21,7 +21,7 @@ const Contact = () => {
 
 
                     <Col md="6">
-                        <h2 className="title"> Contact Me</h2>
+                        <h2 className="title-contact"> Contact Me</h2>
                         <hr/>
                         <div className="contact-list" >
                             <ListGroup>

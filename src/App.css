@@ -19,3 +19,13 @@ hr {
   height: 100%;
   z-index: 1;
 }
+
+.title{
+  font-family: "Amatic SC";
+  font-size: 65px;
+  color: aliceblue;
+  text-align: center;
+}
+.background{
+  background: linear-gradient(to right, #000000, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

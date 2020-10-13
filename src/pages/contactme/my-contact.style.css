@@ -3,12 +3,14 @@
     margin-right:auto;
     width: 18em
 }
-
-.title{
-    text-align:center;
+.title-contact{
+    color:black;
+    font-family: "Amatic SC";
+    text-align: center;
+    font-size: 65px;
 }
 .contact-grid{
-    background-color:white;
+    background: linear-gradient(to top, #f7f7f7, #f7f7f7, #f7f7f7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .list-group-item{
     border:0 !important;

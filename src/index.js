@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {ThemeProvider} from "styled-components";
-import { theme } from "./themes/theme";
+import {theme} from "./themes/theme";
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
@@ -12,9 +12,8 @@ ReactDOM.render(
 
     <App />
  
-  </ThemeProvider>
-  
-  ,document.getElementById('root')
+  </ThemeProvider>,
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

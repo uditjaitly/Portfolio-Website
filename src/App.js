@@ -13,17 +13,18 @@ import Zoom from "react-reveal/Zoom"
 import FooterPanel from './components/my-footer/footer.component.jsx'
 import  Experience  from "./pages/experience/my-experience.component.jsx";
 import Projects from './pages/projects/my-projects.component.jsx';
-import Contact from './pages/contactme/my-contactme.component.jsx'
+import Contact from './pages/contactme/my-contact.component.jsx'
 
 const App = () =>  {
   return (<div> 
-    <MyNavBar></MyNavBar>
+    
     <MyCarousal></MyCarousal>
     <MyTitle></MyTitle>
-    <div>
+    <MyNavBar></MyNavBar>
+    <div className="background">
       <Parallax
             blur={{ min: -30, max: 30 }}
-            bgImage={require("./assets/img/parallex/background.webp")}
+            bgImage={require("./assets/img/background/5.webp")}
             bgImageAlt=""
             strength={-200}>
               <div>
@@ -34,43 +35,47 @@ const App = () =>  {
             </Container>
             </div>
       </Parallax>
-    </div>
+  
+
+
+      
     <Container className="container-box rounded">
         <Zoom  duration={1000}>
           <hr />
           <Skills />
         </Zoom>
       </Container>
-      <div>
+      
+  
+      
+    
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
             <Experience />
           </Fade>
         </Container>
-      </div>
-      <div>
+      
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
           <Projects />
         </Slide>
       </Container>
-      </div>
-      <div>
+      
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
           <Contact />
         </Fade>
       </Container>
-      </div>
-
+     
       <hr />
       <FooterPanel />
-
-
     </div>
+    </div>
+
+    
     )
   
 };

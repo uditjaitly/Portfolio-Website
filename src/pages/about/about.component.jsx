@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div id='about'>
         <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+        <h1 className="title text-center">ABOUT ME</h1>
         <Container>
             <Row>
                 <Col xs={12} md={6}>
