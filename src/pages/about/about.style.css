@@ -1,6 +1,7 @@
 .about {
     background-color: transparent;
     font-size: 1.1em;
+    justify-items: auto ;
   }
   
   .profile {

@@ -13,15 +13,15 @@ import Zoom from "react-reveal/Zoom"
 import FooterPanel from './components/my-footer/footer.component.jsx'
 import  Experience  from "./pages/experience/my-experience.component.jsx";
 import Projects from './pages/projects/my-projects.component.jsx';
-import Contact from './pages/contactme/my-contact.component.jsx'
+import Contact from './pages/contact/contact.component.jsx'
 
 const App = () =>  {
   return (<div> 
-    
+    <div className="background">
     <MyCarousal></MyCarousal>
     <MyTitle></MyTitle>
     <MyNavBar></MyNavBar>
-    <div className="background">
+    
       <Parallax
             blur={{ min: -30, max: 30 }}
             bgImage={require("./assets/img/background/5.webp")}

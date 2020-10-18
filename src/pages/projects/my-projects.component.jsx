@@ -108,7 +108,7 @@ const Projects = () => {
                   </Card.Text>
                 </div>
                 <div className="d-flex justify-content-center text-center">
-                <a href="https://www.linkedin.com/in/udit-jaitly-757222109/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/uditjaitly" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
                  
@@ -199,7 +199,7 @@ const Projects = () => {
                   </Card.Text>
                 </div>
                 <div className="d-flex justify-content-center text-center">
-                <a href="https://www.linkedin.com/in/udit-jaitly-757222109/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/uditjaitly" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
                  
@@ -279,7 +279,7 @@ const Projects = () => {
                   </Card.Text>
                 </div>
                 <div className="d-flex justify-content-center text-center">
-                <a href="https://www.linkedin.com/in/udit-jaitly-757222109/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/uditjaitly" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
                  
@@ -352,7 +352,7 @@ const Projects = () => {
                   </Card.Text>
                 </div>
                 <div className="d-flex justify-content-center text-center">
-                <a href="https://www.linkedin.com/in/udit-jaitly-757222109/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/uditjaitly" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
                  
@@ -433,7 +433,7 @@ const Projects = () => {
                   </Card.Text>
                 </div>
                 <div className="d-flex justify-content-center text-center">
-                <a href="https://www.linkedin.com/in/udit-jaitly-757222109/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/uditjaitly" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
                  
@@ -524,7 +524,7 @@ const Projects = () => {
                   </Card.Text>
                 </div>
                 <div className="d-flex justify-content-center text-center">
-                <a href="https://www.linkedin.com/in/udit-jaitly-757222109/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/uditjaitly" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
                 </div>
@@ -587,7 +587,7 @@ const Projects = () => {
                   </Card.Text>
                 </div>
                 <div className="d-flex justify-content-center text-center">
-                <a href="https://www.linkedin.com/in/udit-jaitly-757222109/" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/uditjaitly" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                 </a>
                 </div>

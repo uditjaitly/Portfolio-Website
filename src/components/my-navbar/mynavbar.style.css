@@ -1,6 +1,6 @@
 .logo {
     width: 25%;
-    color: white;
+    color: red;
   }
   
   .nav-theme {
@@ -11,6 +11,16 @@
   .animate-navbar {
     box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: red;
+}
+
+
+  .nav-title{
+    font-family: Amatic SC;
+    font-size: larger;
+    color: orange;
   }
   
   @keyframes moveDown {

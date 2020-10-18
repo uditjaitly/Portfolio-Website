@@ -16,7 +16,7 @@ const Experience = () => {
             <Row>
             <Col md={6}>
         <Container>
-          <Tilt options={{ max: 5 }}>
+          <Tilt options={{ max: 15 }}>
             <Accordion>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
@@ -30,11 +30,33 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                   <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="0">
-        Show More
+        Job Description
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="0">
-      <Card.Body>Hello! I'm the body</Card.Body>
+      <Card.Body>
+      <Card.Text className="text-center style">
+                    <strong className="body-title-style ">Intern Software Development Engineer</strong>
+                    <br />
+                    <strong>Technology:</strong> Google Cloud Platform, Apache Pulsar, Kubernetes, Docker, Grafana
+                    <br />
+                    <strong>Duration:</strong> May 2020 - Aug 2020
+                    <br/>
+                    <strong> Description </strong>
+                    <ul className="text-left">
+                      <li><strong>Deployed ApachePulsar </strong>   – a pub-sub messaging system on Google Cloud Platform</li>
+                      <li><strong>Evaluated </strong> performance of Pulsar deployed on multiple clusters using Grafana and Prometheus.
+                      </li>
+                      <li><strong>Recommended </strong> out of box solutions like geo-replication and elastic file storage that improved the deployment
+                      </li>
+                    
+                      
+
+                    </ul>
+                    
+                    
+                  </Card.Text>
+      </Card.Body>
     </Accordion.Collapse>
                   </Card.Text>
                 </div>
@@ -47,7 +69,7 @@ const Experience = () => {
         </Col>
         <Col md={6}>
         <Container>
-          <Tilt options={{ max: 5 }}>
+          <Tilt options={{ max: 15 }}>
           <Accordion>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
@@ -61,11 +83,33 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                   <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="0">
-        Show More
+        Job Description
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="0">
-      <Card.Body>Hello! I'm the body</Card.Body>
+      <Card.Body>
+        <Card.Text className="text-center style">
+                    <strong className="body-title-style ">Intern Technical Data Analyst</strong>
+                    <br />
+                    <strong>Technology:</strong> Jupyter (Python), Tableau
+                    <br />
+                    <strong>Duration:</strong> July 2018 - Jan 2019
+                    <br/>
+                    <strong> Description </strong>
+                    <ul className="text-left">
+                      <li>Leveraged <strong>Data Analytics </strong> and proposed potential solutions to reduce supply chain inefficiencies</li>
+                      <li>Conducted assessments of consulting assignments to ensure better client value creation
+                      </li>
+                      <li>Applauded for data-driven insights that improved order cancellation metric of the key client
+                      </li>
+                    
+                      
+
+                    </ul>
+                    
+                    
+                  </Card.Text>
+                  </Card.Body>
     </Accordion.Collapse>
                   </Card.Text>
                 </div>

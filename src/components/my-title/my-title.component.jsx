@@ -7,6 +7,7 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
+  font-family:Amatic SC;
   margin-top: -125px;
   text-align: center;
   strong {
@@ -21,7 +22,7 @@ const MyTitleMessage = styled.h1`
       font-size: 50px;
     }
     .sub {
-      font-size: 27px;
+      font-size: 60px;
       letter-spacing: 2px;
     }
   }
@@ -32,16 +33,16 @@ const MyTitle = () => {
     return (<MyTitleMessage>
         <div className="titleMessage">
       <div className="heading">
-        <div className="main text-center mb-3">
+        <div className=" main text-center mb-3">
           Hi, I am
           <br />
           <span>
-            <strong>Udit Jaitly</strong>
+            <strong className="Landing-Title">Udit Jaitly</strong>
           </span>
         </div>
         <div className="sub">
         <Typewriter
-options={{ strings:["Software Engineer", "Web Developer", "Cloud Engineer", "Machine Learning"], autoStart: true, loop:true,}}
+options={{ strings:["Software Developer", "Web Developer", "Cloud Deployment", "Machine Learning"], autoStart: true, loop:true,}}
 />
         </div>
       </div>

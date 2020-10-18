@@ -20,16 +20,16 @@ const About = () => {
 
                 </Col>
                 <Col xs={12} md={6}>
-                <Row className=" align-items-start p-2 my-details rounded">   
-                Hello! I am Udit, a Computer Engineer based in Gainesville, Florida. I am currently pursuing my masters degree in Computer Science
+                <Row className=" align-items-start justify-content-center p-2 my-details rounded">   
+                Hello! I am Udit, a Computer Engineer based in Gainesville, Florida. I am currently pursuing my masters degree in Computer Science. I am looking for full time opportunities starting May 21'. After my intern period at Micro Focus where I deployed Apache Pulsar on Google Cloud Platform, I am learning and exploring more about the cloud.
                 <Col className="d-flex justify-content-center flex-wrap">
-                  <div>
+                  {/*<div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
                         Let's talk
                       </Button>
                     </a>
-                  </div>
+                  </div>*/}
                   <div>
                     <a href="" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
