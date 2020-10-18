@@ -21,7 +21,7 @@ const About = () => {
                 </Col>
                 <Col xs={12} md={6}>
                 <Row className=" align-items-start p-2 my-details rounded">   
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Hello! I am Udit, a Computer Engineer based in Gainesville, Florida. I am currently pursuing my masters degree in Computer Science
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
