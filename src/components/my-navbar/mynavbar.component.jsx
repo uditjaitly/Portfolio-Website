@@ -19,7 +19,7 @@ const MyNavbar = () => {
             <Nav.Link className="nav-title"href="#experience">Experience</Nav.Link>
             <Nav.Link className="nav-title"href="#project">Project</Nav.Link>
             <Nav.Link className="nav-title"href="#contact">Contact</Nav.Link>
-            <Nav.Link className="nav-title"href="#resume">Resume</Nav.Link>
+            <Nav.Link className="nav-title"href="https://drive.google.com/file/d/1TYQWcu3QIAlpmZVhNjXI_G9cqh5olbIE/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
 
 
             
